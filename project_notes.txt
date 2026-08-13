@@ -27,4 +27,4 @@ FUTURE IMPROVEMENTS
     - Cloud storage
     - SFTP server
     - Another application or data warehouse
-
+- Adjust report timestamps to use an explicitly defined timezone instead of the system/server default.

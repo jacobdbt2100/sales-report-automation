@@ -1,0 +1,30 @@
+
+PYTHON SALES REPORT AUTOMATION
+FUTURE IMPROVEMENTS
+===================
+
+- Check for new/unprocessed files before running the pipeline.
+- Do not generate a report when there is no new data.
+- Track which incoming files have already been processed.
+- Add proper logging.
+- Add input/data validation.
+- Add error handling for bad or incomplete files.
+- Archive processed input files while preserving audit history.
+- Move configurable settings out of the Python code.
+- Use report period (daily/weekly/monthly) rather than only execution timestamp.
+- Add email/report notification as a separate script.
+- Add automated tests.
+- Explore database/warehouse ingestion and incremental processing.
+- Explore upserts/incremental loading in a more advanced version.
+- Introduce OOP where project complexity actually justifies it.
+- Improve project structure for a production-style implementation.
+- In a real organization, instead of incoming/, data might arrive from:
+    - Database
+    - Google Sheets
+    - API
+    - E-commerce platform
+    - Government information system
+    - Cloud storage
+    - SFTP server
+    - Another application or data warehouse
+

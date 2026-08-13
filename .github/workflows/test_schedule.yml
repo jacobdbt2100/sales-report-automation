@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "3-59/5 * * * *"
 
 jobs:
   test:
@@ -13,4 +13,3 @@ jobs:
     steps:
       - name: Display test message
         run: echo "Scheduled workflow is working!"
-

@@ -23,6 +23,10 @@ def generate_report(sales):
 
     report_timestamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
 
+    from pathlib import Path
+
+    Path("reports").mkdir(exist_ok=True)
+
     report.to_csv(
         f"reports/sales_report_{report_timestamp}.csv",
         index=False

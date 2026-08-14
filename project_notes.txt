@@ -28,3 +28,5 @@ FUTURE IMPROVEMENTS
     - SFTP server
     - Another application or data warehouse
 - Adjust report timestamps to use an explicitly defined timezone instead of the system/server default.
+- GitHub Actions scheduled workflows may not run at precisely the expected time.
+    - So they should not be relied on where strict timing is required.
